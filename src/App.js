@@ -1,19 +1,18 @@
-import React from 'react';
+import React from 'react'
 import './styles.css';
-import  coverimg  from './cover';
-import funcblog from './blogpage';
-import ReactDOM from 'react-dom';
+import CoverImage  from './Cover';
+import BlogPage from './Blogpage';
+
 
 class App extends React.Component{
   render() {
-    return (
-      <>
-      <coverimg/>
-      <funcblog/>
-  </>
- );
+      return (
+        <>
+          <CoverImage />
+          <BlogPage />
+      </>
+    );
   }
-
 }
 
 export default App;
